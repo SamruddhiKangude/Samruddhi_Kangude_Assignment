@@ -23,6 +23,6 @@ As per the assignment guidelines, all solutions have been clearly organized into
 **Documentation:** Proper comments are included throughout the code to explain the logic and functionality.<br>
 
 ---
-**Author:** Samruddhi Sandip Kangude<br>
+**Name:** Samruddhi Sandip Kangude<br>
 **Email ID:** samruddhikangude20@gmail.com<br>
 **Phone Number:** 7218380003
