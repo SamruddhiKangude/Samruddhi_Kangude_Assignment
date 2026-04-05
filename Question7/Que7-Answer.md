@@ -1,4 +1,4 @@
-# Question 7: Implementing Dependency Injection in ASP.NET Core
+# Question 7: Explain how you would implement Dependency Injection in ASP.NET Core (short answer).
 
 Dependency Injection (DI) is a software design pattern used to achieve Inversion of Control (IoC) between classes and their dependencies. In ASP.NET Core, it is a built-in feature implemented in two main stages.
 
