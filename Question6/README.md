@@ -92,6 +92,8 @@ Question6/<br>
 | Ramesh Kumar      | ramesh@gmail.com             | 3              |
 | Shruti Kanade     | skangude77@gmail.com         | 2              |
 
+--- 
+
 ✅ 8. Conclusion
 
 ✔ Uses GROUP BY + HAVING to detect duplicates<br>
