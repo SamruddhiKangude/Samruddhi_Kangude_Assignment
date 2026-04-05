@@ -6,13 +6,13 @@ The program retrieves employees earning more than **₹50,000** using the `.Wher
 
 ---
 
-## 1. Problem Statement
+## 📌 1. Problem Statement
 
 Write a LINQ query to filter employees whose salary is greater than **50,000**.
 
 ---
 
-## 2. Algorithm
+## ▶️ 2. Algorithm
 
 The program follows these steps:
 
@@ -24,7 +24,7 @@ The program follows these steps:
 
 ---
 
-## 3. Logic Flowchart
+## 🔄 3. Logic Flowchart
 
 ```mermaid
 flowchart TD
@@ -36,7 +36,7 @@ flowchart TD
     E --> G[End]
     F --> G
 ```
-## 4. Project Structure
+## 📁 4. Project Structure
 Question4/<br>
 ├── Program.cs          # Main program logic<br>
 ├── Employee.cs         # Employee class (if separated)<br>
@@ -44,7 +44,7 @@ Question4/<br>
 ├── Question4.sln       # Solution file<br>
 └── README.md           # Documentation<br>
 
-## 5. How to Run the Program
+## ▶️  5. How to Run the Program
 
 **Step 1: Open Terminal**
 Open Command Prompt / PowerShell / VS Code Terminal.
@@ -59,7 +59,7 @@ cd Question4
 dotnet run
 ```
 
-## 6. Expected Output
+## 💻 6. Expected Output
 --- Employee Salary Filter (LINQ Demo) ---<br>
 Searching for employees earning more than Rs. 50,000...<br>
 
@@ -69,7 +69,7 @@ Searching for employees earning more than Rs. 50,000...<br>
 - Sneha Patil (Salary: Rs. 82000)<br>
 -------------------------
 
-## 7. Code Overview
+## 📄 7. Code Overview
 **Employee Class**<br>
 Defines Id, Name, and Salary.<br>
 
@@ -80,7 +80,7 @@ var highEarners = team.Where(emp => emp.Salary > 50000).ToList();
 **Filtering Logic**
 Uses lambda expression to filter employees.
 
-## 8. Conclusion
+## ✅ 8. Conclusion
 
 **This project helps understand:**
 
