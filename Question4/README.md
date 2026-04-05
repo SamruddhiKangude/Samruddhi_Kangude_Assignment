@@ -1,4 +1,4 @@
-# Question 4: LINQ Query to Filter Employees with Salary > 50,000
+# Question 4: Write a LINQ query to filter employees with salary > 50,000.
 
 This project is a **C# Console Application** that demonstrates the use of **LINQ (Language Integrated Query)** to filter employees based on their salary.
 
