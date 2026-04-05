@@ -90,4 +90,4 @@ Updated Salary: Rs. 0<br>
 2. Data validation<br>
 3. Secure and controlled access to class data<br>
 
-It is a fundamental concept in Object-Oriented Programming (OOP).
+**It is a fundamental concept in Object-Oriented Programming (OOP).**
