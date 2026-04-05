@@ -8,8 +8,32 @@ This project is a **simple ASP.NET Core Web API** that demonstrates how to creat
 It uses an in-memory list to simulate a database.
 
 ---
+## ▶️ 1. How to Run the Program
 
-## 📌 1. Problem Statement
+**🔹 Step 1: Open Terminal**
+➤ Use Command Prompt / PowerShell / VS Code Terminal  
+
+**🔹 Step 2: Navigate to Project Folder**  
+```bash
+cd Question5
+```
+
+**🔹 Step 3: Run the API**
+
+```bash
+dotnet run
+```
+
+## 🌐 API Access URLs
+
+- ▶️ **By Default URL (when app runs):**  
+  http://localhost:5152  
+
+- ✅ **Correct API Endpoint (to see data):**  
+  👉 **http://localhost:5152/api/items**
+
+
+## 📌 2. Problem Statement
 
 Build a simple Web API with:
 - ➤ One **GET endpoint** to fetch items  
@@ -17,7 +41,7 @@ Build a simple Web API with:
 
 ---
 
-## ⚙️ 2. Algorithm / Logic
+## ⚙️ 3. Algorithm / Logic
 
 ### 🔹 GET Method (`/api/items`)
 - ➤ Receive request  
@@ -33,7 +57,7 @@ Build a simple Web API with:
 
 ---
 
-## 🔄 3. Logic Flowchart
+## 🔄 4. Logic Flowchart
 
 ```mermaid
 flowchart TD
@@ -56,7 +80,7 @@ flowchart TD
     J --> K
 ```
 
-## 📁 4. Project Structure
+## 📁 5. Project Structure
 
 Question5/<br>
 ├── Controllers/<br>
@@ -70,21 +94,7 @@ Question5/<br>
 
 ---
 
-## ▶️ 5. How to Run the Program
 
-**🔹 Step 1: Open Terminal**
-➤ Use Command Prompt / PowerShell / VS Code Terminal  
-
-**🔹 Step 2: Navigate to Project Folder**  
-```bash
-cd Question5
-```
-
-**🔹 Step 3: Run the API**
-
-```bash
-dotnet run
-```
 
 ## 📡 6. API Endpoints
 **🔹 GET Request**
