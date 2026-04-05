@@ -23,6 +23,7 @@ builder.Services.AddScoped<IItemService, ItemService>();
 Once registered, the ASP.NET Core framework automatically provides the service to any class that asks for it in its constructor. This is most commonly used in controllers.
 
 **Example Implementation**
+
 public class ItemsController : ControllerBase
 {
     private readonly IItemService _itemService;
