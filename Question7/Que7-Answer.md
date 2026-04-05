@@ -17,17 +17,16 @@ Services are registered in the **Program.cs** file using the `builder.Services` 
 builder.Services.AddScoped<IItemService, ItemService>();
 
 
-### 2. Constructor Injection (The "How")
-Once registered, the ASP.NET Core framework automatically provides the service to any class that asks for it in its Constructor. This is most commonly used in Controllers.<br>
+2. Constructor Injection (The "How")
 
-**Example Implementation:**
+Once registered, the ASP.NET Core framework automatically provides the service to any class that asks for it in its constructor. This is most commonly used in controllers.
 
-C#
+Example Implementation
 public class ItemsController : ControllerBase
 {
     private readonly IItemService _itemService;
 
-    // The framework "injects" the ItemService here automatically
+    // The framework injects the service here
     public ItemsController(IItemService itemService)
     {
         _itemService = itemService;
@@ -39,12 +38,10 @@ public class ItemsController : ControllerBase
         return Ok(_itemService.GetAllItems());
     }
 }
+3. Benefits of Dependency Injection
+Loose Coupling: Classes do not create their own dependencies.
+Testability: Easy to replace with mock services for testing.
+Maintainability: Changes are centralized in Program.cs.
+Conclusion
 
-
-### 3. Benefits of DI
-
-Loose Coupling: Classes are not responsible for creating their own dependencies.<br>
-
-Testability: Makes it easy to swap real services with "Mock" objects for unit testing.<br>
-
-Maintainability: You only need to change the implementation in one place (Program.cs).<br>
+Dependency Injection in ASP.NET Core improves code quality, maintainability, and scalability.
