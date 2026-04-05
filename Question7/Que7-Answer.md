@@ -20,7 +20,7 @@ builder.Services.AddScoped<IItemService, ItemService>();
 ### 2. Constructor Injection (The "How")
 Once registered, the ASP.NET Core framework automatically provides the service to any class that asks for it in its Constructor. This is most commonly used in Controllers.<br>
 
-Example Implementation:
+**Example Implementation:**
 
 C#
 public class ItemsController : ControllerBase
