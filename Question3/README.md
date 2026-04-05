@@ -74,7 +74,7 @@ cd Question3
 dotnet run
 ```
 
-## Expected Output
+## 💻 Expected Output
 --- Employee Encapsulation Demo ---<br>
 ID: 101 | Name: Samruddhi Kangude | Salary: Rs. 60000<br>
 
