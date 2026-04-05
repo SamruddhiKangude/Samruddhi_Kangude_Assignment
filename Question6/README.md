@@ -88,9 +88,9 @@ Question6/<br>
 
 Name                 | Email                          | DuplicateCount
 ---------------------------------------------------------------------
-Samruddhi Kangude    | samruddhikangude20@gmail.com   | 3
-Ramesh Kumar         | ramesh@gmail.com               | 3
-Shruti Kanade        | skangude77@gmail.com           | 2
+Samruddhi Kangude    | samruddhikangude20@gmail.com   | 3 <br>
+Ramesh Kumar         | ramesh@gmail.com               | 3 <br>
+Shruti Kanade        | skangude77@gmail.com           | 2 <br>
 
 ✅ 8. Conclusion
 
