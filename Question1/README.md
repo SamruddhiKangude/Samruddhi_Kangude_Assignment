@@ -25,28 +25,25 @@ The program uses the **Two-Pointer Technique**, which is the most efficient way 
 
 ## 2. Logic Flowchart
 
-```text
-[Start]
-   |
-[User Enters String]
-   |
-[Is Input Empty?] -- Yes --> [Show Error & Exit]
-   | (No)
-[Convert to Lowercase]
-   |
-[Set Left = 0, Right = LastIndex]
-   |
-[While Left < Right] <-------------------
-   |                                    |
-[Do characters match?] -- No --> [Set IsPalindrome = False] --+
-   | (Yes)                                                    |
-[Move Left In, Move Right In] ---------------------------------
-   |
-[Check Flag: IsPalindrome?]
-   |
-[Print Final Result]
-   |
-[End]
+```mermaid
+flowchart TD
+    A[Start] --> B[User Enters String]
+    B --> C{"Is Input Empty?"}
+    C -- Yes --> D[Show Error & Exit]
+    C -- No --> E[Convert to Lowercase]
+    E --> F["Set Left = 0, Right = LastIndex"]
+    F --> G{"Left < Right?"}
+    
+    G -- No --> H{"IsPalindrome?"}
+    H --> I[Print Final Result]
+    I --> J[End]
+    
+    G -- Yes --> K{"Characters Match?"}
+    K -- No --> L["Set IsPalindrome = False"]
+    L --> H
+    
+    K -- Yes --> M["Move Left++, Right--"]
+    M --> G
 ```
 ---
 
