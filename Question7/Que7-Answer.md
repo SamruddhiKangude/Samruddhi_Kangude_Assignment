@@ -39,7 +39,7 @@ public class ItemsController : ControllerBase
     {
         return Ok(_itemService.GetAllItems());
     }
-}
+
 
 ### 3. Benefits of Dependency Injection
 
