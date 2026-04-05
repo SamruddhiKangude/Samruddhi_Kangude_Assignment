@@ -47,35 +47,37 @@ The program uses the **Two-Pointer Technique**, which is the most efficient way 
 [Print Final Result]
    |
 [End]
-
+```
 ---
 
 ## 3. How to Run the Program
+
 You can run this program using Visual Studio Code or your system terminal:
 
 Open your terminal (Command Prompt, PowerShell, or Bash).
 
 Navigate to the Question 1 folder:
 
-Bash
+**Bash**
 cd Question1
 Execute the application using the .NET CLI:
 
-Bash
+**Bash**
 dotnet run
 
 ---
 
 ## 4. Expected Output Example
 
-Example 1: Palindrome Input
+**Example 1: Palindrome Input**
 Plaintext
 --- Palindrome Checker ---
 Enter a word to check if it is a palindrome: Racecar
 
 --- Result ---
 Yes! 'Racecar' is a palindrome......
-Example 2: Non-Palindrome Input
+
+**Example 2: Non-Palindrome Input**
 Plaintext
 --- Palindrome Checker ---
 Enter a word to check if it is a palindrome: Hello
