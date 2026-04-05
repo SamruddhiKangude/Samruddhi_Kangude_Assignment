@@ -58,11 +58,11 @@ Open your terminal (Command Prompt, PowerShell, or Bash).
 
 Navigate to the Question 1 folder:
 
-**Bash**
-cd Question1
+**Bash**<br>
+cd Question1<br>
 
-**Bash**
-dotnet run
+**Bash**<br>
+dotnet run<br>
 
 Execute the application using the .NET CLI:
 
@@ -71,17 +71,17 @@ Execute the application using the .NET CLI:
 ## 4. Expected Output Example
 
 **Example 1: Palindrome Input**
-Plaintext
---- Palindrome Checker ---
-Enter a word to check if it is a palindrome: Racecar
+Plaintext<br>
+--- Palindrome Checker ---<br>
+Enter a word to check if it is a palindrome: Racecar<br>
 
---- Result ---
-Yes! 'Racecar' is a palindrome......
+--- Result ---<br>
+Yes! 'Racecar' is a palindrome......<br>
 
 **Example 2: Non-Palindrome Input**
-Plaintext
---- Palindrome Checker ---
-Enter a word to check if it is a palindrome: Hello
+Plaintext<br>
+--- Palindrome Checker ---<br>
+Enter a word to check if it is a palindrome: Hello<br>
 
---- Result ---
-No, 'Hello' is not a palindrome......
+--- Result ---<br>
+No, 'Hello' is not a palindrome......<br>
