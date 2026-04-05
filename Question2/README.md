@@ -18,21 +18,19 @@ The program follows a **linear search approach** to find the maximum value:
 ---
 
 ## 2. Logic Flowchart
-   [Start]
-      |
-      [Initialize Array]
-          |
-[largest = Array[0]]
-          |
-    [Loop: i = 1]
-          |
-   /---{i < Length?}-- No --> [Print largest] -- [End]
-   |      | (Yes)
-   | {Array[i] > largest?} -- No --\
-   |      | (Yes)                  |
-   | [largest = Array[i]]          |
-   |      |                        |
-   \---[i++] <---------------------/
+   ```mermaid
+flowchart TD
+    A[Start] --> B[Initialize Array]
+    B --> C[largest = Array[0]]
+    C --> D[Loop: i = 1]
+    D --> E{i < Length?}
+    E -- No --> F[Print largest]
+    F --> G[End]
+    E -- Yes --> H{Array[i] > largest?}
+    H -- Yes --> I[largest = Array[i]]
+    H -- No --> J[i++]
+    I --> J
+    J --> E
 
 
 ---
