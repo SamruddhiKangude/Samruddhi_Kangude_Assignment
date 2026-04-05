@@ -65,11 +65,11 @@ dotnet run
 
 ## 5. Expected Output
 
-When you run the program, it will display:
---- Largest Number Finder ---
-Let's find the biggest number in our list!
+When you run the program, it will display:<br>
+--- Largest Number Finder ---<br>
+Let's find the biggest number in our list!<br>
 
-List of numbers: 15, 82, 4, 99, 23, 42
+List of numbers: 15, 82, 4, 99, 23, 42<br>
 
 --- Result ---
 Largest number is: 99
