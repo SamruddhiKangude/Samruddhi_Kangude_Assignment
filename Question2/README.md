@@ -38,11 +38,11 @@ The program follows a **linear search approach** to find the maximum value:
 ---
 
 ## 3. Project Structure
-Question2/
-├── Program.cs          # Main source code containing the logic
-├── Question2.csproj    # .NET project configuration file
-├── Question2.sln       # Visual Studio Solution file
-└── README.md           # Project documentation (this file)
+Question2/<br>
+├── Program.cs          # Main source code containing the logic<br>
+├── Question2.csproj    # .NET project configuration file<br>
+├── Question2.sln       # Visual Studio Solution file<br>
+└── README.md           # Project documentation (this file)<br>
 
 
 ---
