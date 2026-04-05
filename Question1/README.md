@@ -1,29 +1,42 @@
-# Question 1:  Write a C# program to check whether a string is a palindrome.
+# Question 1: Write a C# Program to Check Whether a String is a Palindrome
 
-This project is a C# Console Application that determines whether a given string is a palindrome (a word that reads the same backward as forward, such as "radar" or "madam").
-
----
-
-## 1. Logic & Algorithm Hierarchy
-
-The program uses the **Two-Pointer Technique**, which is the most efficient way to check for palindromes as it only requires a single pass through half of the string.
-
-### **The Step-by-Step Logic:**
-1.  **Input Acquisition:** The program prompts the user for a string.
-2.  **Validation:** It checks if the input is null or empty to prevent errors.
-3.  **Normalization:** The input is converted to **lowercase** using `.ToLower()` to ensure the check is case-insensitive (e.g., 'Racecar' becomes 'racecar').
-4.  **The Comparison Engine:**
-    * Initialize a `leftSide` pointer at index `0`.
-    * Initialize a `rightSide` pointer at the last index (`length - 1`).
-    * While the `leftSide` is less than the `rightSide`:
-        * Compare the characters at these two positions.
-        * If they **do not match**, the word is not a palindrome; stop the loop immediately.
-        * If they **do match**, move the `leftSide` forward and the `rightSide` backward to check the next pair.
-5.  **Output:** Display a friendly result to the user based on the boolean flag.
+This project is a **C# Console Application** that determines whether a given string is a **palindrome** (a word that reads the same backward as forward, such as *"radar"* or *"madam"*).
 
 ---
 
-## 2. Logic Flowchart
+## 📌 1. Logic & Algorithm Hierarchy
+
+The program uses the **Two-Pointer Technique**, which is efficient because it only checks **half of the string**.
+
+### 🔍 Step-by-Step Logic
+
+1. **Input Acquisition**  
+   ➤ The program asks the user to enter a string.
+
+2. **Validation**  
+   ➤ Checks if the input is empty or null to avoid errors.
+
+3. **Normalization**  
+   ➤ Converts the string to lowercase using `.ToLower()`  
+   ➤ Example: `"Racecar"` → `"racecar"`
+
+4. **Comparison Logic (Two-Pointer Technique)**  
+   ➤ Set `leftSide = 0`  
+   ➤ Set `rightSide = length - 1`  
+
+   🔁 While `leftSide < rightSide`:
+   - Compare characters at both ends  
+   - ❌ If not equal → Not a palindrome (stop)  
+   - ✅ If equal → Move pointers inward  
+     - `leftSide++`  
+     - `rightSide--`
+
+5. **Final Output**  
+   ➤ Display result based on comparison
+
+---
+
+## 🔄 2. Logic Flowchart
 
 ```mermaid
 flowchart TD
