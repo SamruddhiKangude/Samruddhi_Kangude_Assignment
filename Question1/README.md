@@ -60,7 +60,7 @@ flowchart TD
 ```
 ---
 
-## 3. How to Run the Program
+## ▶️ 3. How to Run the Program
 
 You can run this program using Visual Studio Code or your system terminal:
 
@@ -78,9 +78,9 @@ Execute the application using the .NET CLI:
 
 ---
 
-## 4. Expected Output Example
+## 💻 4. Expected Output Example
 
-**Example 1: Palindrome Input**<br>
+**✅ Example 1: Palindrome Input**<br>
 Plaintext<br>
 --- Palindrome Checker ---<br>
 Enter a word to check if it is a palindrome: Racecar<br>
@@ -88,7 +88,7 @@ Enter a word to check if it is a palindrome: Racecar<br>
 --- Result ---<br>
 Yes! 'Racecar' is a palindrome......<br>
 
-**Example 2: Non-Palindrome Input**<br>
+**❌ Example 2: Non-Palindrome Input**<br>
 Plaintext<br>
 --- Palindrome Checker ---<br>
 Enter a word to check if it is a palindrome: Hello<br>
