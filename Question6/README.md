@@ -11,9 +11,9 @@ Write a SQL query to find duplicate records in a table based on specific columns
 ---
 
 ## 🛠️ 2. Requirements
-
-- ✔ SQL (MySQL)  
-- ✔ MySQL Workbench  
+  
+- ✔ MySQL Workbench
+- ✔ SQL (MySQL)
 
 ---
 
@@ -86,11 +86,11 @@ Question6/<br>
 
 ## 💻 7. Expected Output
 
-Name                 | Email                          | DuplicateCount
----------------------------------------------------------------------
-Samruddhi Kangude    | samruddhikangude20@gmail.com   | 3 <br>
-Ramesh Kumar         | ramesh@gmail.com               | 3 <br>
-Shruti Kanade        | skangude77@gmail.com           | 2 <br>
+| Name              | Email                         | DuplicateCount |
+|:------------------|:-----------------------------|--------------:|
+| Samruddhi Kangude | samruddhikangude20@gmail.com | 3              |
+| Ramesh Kumar      | ramesh@gmail.com             | 3              |
+| Shruti Kanade     | skangude77@gmail.com         | 2              |
 
 ✅ 8. Conclusion
 
