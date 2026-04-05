@@ -1,4 +1,4 @@
-# Question 1: Palindrome Checker
+# Question 1:  Write a C# program to check whether a string is a palindrome.
 
 This project is a C# Console Application that determines whether a given string is a palindrome (a word that reads the same backward as forward, such as "radar" or "madam").
 
@@ -60,10 +60,11 @@ Navigate to the Question 1 folder:
 
 **Bash**
 cd Question1
-Execute the application using the .NET CLI:
 
 **Bash**
 dotnet run
+
+Execute the application using the .NET CLI:
 
 ---
 
