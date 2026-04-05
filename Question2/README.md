@@ -1,4 +1,4 @@
-# Question 2: Find the Largest Number in an Array
+# Question 2:  Write a program to find the largest number in an array.
 
 This project is a **C# Console Application** that identifies the maximum value within a predefined set of integers. It demonstrates fundamental array traversal and comparison logic.
 
